@@ -14,7 +14,7 @@
 
     - name: Copy the Nginx config file to /etc/nginx/sites-available
       copy:
-        src: path/to/nginx.conf
+        src: nginx.cfg
         dest: /etc/nginx/sites-available/nginx.conf
       become: yes
 
